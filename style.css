@@ -5,9 +5,10 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: #036b52;
 }
 
-#minhafoto {
+#minha_foto {
     width: 200px;
 }
 
@@ -15,7 +16,7 @@ body {
     text-decoration: none;
 }
 
-#breve_descricao {
+#mini_legenda {
     font-weight: bold;
 }
 
