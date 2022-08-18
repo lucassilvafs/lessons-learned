@@ -1,15 +1,55 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
+    font-family: dm sans;
+}
+
+h2 {
+    color: #036b52;
+}
+
+p {
+    line-height: 1.4;
+}
+
+#parte_principal{
+    margin-inline: 20px;
+    display: flex;
+}
+
+.lado-direito {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.lado-esquerdo {
+    margin-top: 100px;
+    margin-left: 65px;
+    margin-right: 100px;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
     background-color: #036b52;
+    width: 100%;
+    text-align: center;
 }
 
 #minha_foto {
+    margin-top: 100px;
     width: 200px;
+    border-radius: 5%;
+    border: 3px solid #036b52;
+}
+
+#sobre_mim {
+    display: flex;
+}
+
+#meu_texto {
+    text-align: justify;
 }
 
 #link_trybe {
@@ -17,17 +57,18 @@ body {
 }
 
 #mini_legenda {
+    font-size: 16px;
     font-weight: bold;
 }
 
-#licoes_aprendidas {
-    
+#listas {
+    display: flex;
 }
 
-#licoes_a_aprender {
-    
+#lista_1 {
+    margin-right: 50px;
 }
 
 #rodape {
-    
+    text-align: center;
 }
